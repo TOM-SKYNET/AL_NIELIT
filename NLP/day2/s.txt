@@ -1,0 +1,2 @@
+TextBlob. 
+TextBlob aims to provide access to common text-processing operations through a familiar interface. You can treat TextBlob objects as if they were Python strings that learned how to do Natural Language Processing.

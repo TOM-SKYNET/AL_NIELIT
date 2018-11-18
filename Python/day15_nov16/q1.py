@@ -22,23 +22,47 @@ def HasVowel(s):
     return False
 
 def IsHex(s):
-    pat  = re.compile(r'.*(?=[\u]).*')
+    pat = re.compile(r'(\n--)([0-9A-F]+)(--)?', re.I | re.S | re.M)
     model = re.match(pat,s)
     if model:
         return True
     return False
 
-def IsDate(d):
-    pat  = re.compile(r'.*(?=[\u]).*')
+
+def isDate(s):
+    pat  = re.compile('(\d{2}-\d{2}-\d{4})')
     model = re.match(pat,s)
     if model:
         return True
     return False
 
-print "IsInteger: ", IsInteger('a daa 11')
-print "IsFloat: ", IsFloat('dsfs 11.0 aaa')
-print "HasVowel: ", HasVowel('apple')
-print "isHex: ", IsHex('hh\\x12')
+def IsValidPAssword(s):
+    pat = re.compile(r'^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$')
+    model = re.match(pat,s)
+    if model:
+        return True
+    return False
 
+def IsValidEmail(s):
+    pat = re.compile(r'^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$')
+    model = re.match(pat,s)
+    if model:
+        return True
+    return False
+
+def Normalise(s):
+
+def Normalisen(s,n):
+
+try:
+    print ("IsInteger: " , IsInteger('a daa 11'))
+    print ("IsFloat: ", IsFloat('dsfs 11.0 aaa'))
+    print ("HasVowel: ", HasVowel('apple'))
+    print ("isHex: ", IsHex('77094A27E'))
+    print ("isDate: ", IsDate('12/02-1999'))
+    print ("isValidEmail: ", IsValidEmail('hhsdasdadasasdas.com'))
+
+except Exception as e:
+    print (e)
 
 

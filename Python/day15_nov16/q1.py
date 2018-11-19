@@ -51,7 +51,7 @@ def IsValidEmail(s):
     return False
 
 def Normalise(s):
-    return re.sub('\s\s+', ' ', s)
+    return re.sub('\s+', ' ', s)
 
 def Normalisen(s,n=1):
     return re.sub(r'(\s)\1{n,}', r'\1', s)
@@ -65,6 +65,7 @@ try:
     print ("IsValidPAssword: ", IsValidPAssword('dd2AcD1pass.com'))
     print ("isValidEmail: ", IsValidEmail('hhsdasdadasasdas.com'))
     print ("Normalise: ", Normalise('hhsd     asd  ada    sas das.   com'))
+    print ("Normalisen: ", Normalisen('hhsd     asd    ada    sas das \t .   com'))
     print ("Normalisen: ", Normalisen('hhsd     asd    ada    sas das \t .   com', n=2))
 
 except Exception as e:

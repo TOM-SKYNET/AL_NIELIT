@@ -51,10 +51,11 @@ def IsValidEmail(s):
     return False
 
 def Normalise(s):
-    return 0
+    return re.sub('\s\s+', ' ', s)
 
-def Normalisen(s,n):
-    return 0
+def Normalisen(s,n=1):
+    return re.sub(r'(\s)\1{n,}', r'\1', s)
+
 try:
     print ("IsInteger: " , IsInteger('a daa 11'))
     print ("IsFloat: ", IsFloat('dsfs 11.0 aaa'))
@@ -63,6 +64,8 @@ try:
     print ("isDate: ", IsDate('12/02-1999'))
     print ("IsValidPAssword: ", IsValidPAssword('dd2AcD1pass.com'))
     print ("isValidEmail: ", IsValidEmail('hhsdasdadasasdas.com'))
+    print ("Normalise: ", Normalise('hhsd     asd  ada    sas das.   com'))
+    print ("Normalisen: ", Normalisen('hhsd     asd    ada    sas das \t .   com', n=2))
 
 except Exception as e:
     print (e)

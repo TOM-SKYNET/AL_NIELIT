@@ -1,5 +1,5 @@
 from sklearn.datasets import load_iris
-from sklearn.model_selection import cross_val_score,train_test_split,KFold
+from sklearn.model_selection import cross_val_score, train_test_split, KFold
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
@@ -10,20 +10,21 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 file = 'bank.csv'
-data = pd.read_csv(file,delim_whitespace=True)
+data = pd.read_csv(file, delim_whitespace=True)
 
-# Transform the data as it has text values
+# Transform the data as it has text values, Encoding only categorical variables
 le=LabelEncoder()
 for col in data.columns.values:
-        # Encoding only categorical variables
-	if data[col].dtypes=='object':
-	    	le.fit(data[col].values)
-       		data[col]=le.transform(data[col])
-print(data.head)    
+    if data[col].dtypes == 'object':
+        le.fit(data[col].values)
+        data[col] = le.transform(data[col])
+
+print(data.head)
 da = data.as_matrix()
 X = da[:,0:20]
 y = da[:,-1]
-kfold=KFold(10,random_state=7)
+
+# Model creation
 models=[]
 models.append(("KNN",KNeighborsClassifier()))
 models.append(("NB",GaussianNB()))
@@ -40,6 +41,8 @@ for name,model in models:
 	names.append(name)
 	print(name)
 	print(v)
+
+# Ploting
 fig=plt.figure()
 fig.suptitle('Algorithm Comparison')
 ax=fig.add_subplot(111)

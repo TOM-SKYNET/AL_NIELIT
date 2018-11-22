@@ -11,7 +11,7 @@ def clicked(ch):
     if ch == '+':
         addRecord(db_init(), txtId.get(),txtName.get(),txtAge.get(), txtAddress.get(),txtBasic.get())
     elif ch == 'd':
-        print 'Display'
+        displayRecords(db_init())
     elif ch == 'x':
         window.destroy()
 
@@ -31,6 +31,7 @@ def addRecord(con, id , name , age, address, basic):
         sql = "insert into company values(%s, %s, %s, %s, %s)"
         cur.execute(sql, (id, name, age, address, basic))
         con.commit()
+        cur.close()
     except psql.DatabaseError as de:
         print(de)
         if con:
@@ -38,18 +39,19 @@ def addRecord(con, id , name , age, address, basic):
     else:
         print("1 row inserted")
 
-def displayRecords(self, con):
+def displayRecords(con):
     try:
         cur = con.cursor()
-        sql = "insert into company values(%d, %s, %d, %s, %f)"
-        cur.execute(sql, (id, name, age, address, basic))
-        con.commit()
+        sql = "select id, name, age, address, salary from company order by id"
+        cur.execute(sql)
+        row = cur.fetchone()
+        while row is not None:
+            print(row)
+            row = cur.fetchone()
+        cur.close()
     except psql.DatabaseError as de:
         print(de)
-        if con:
-            con.rollback()
-    else:
-        print("1 row inserted")
+
 
 
 """

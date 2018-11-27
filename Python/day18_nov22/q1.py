@@ -74,16 +74,14 @@ print "a7[a7%5 == 0]= -1 \n" , a7
 # Q8 Write a function to return diagonal elements of an array(NxN) as an array.
 def diag(arr):
     arrc = arr.copy()
-    for i in range(arr.shape[0]):
-        for j in range(arr.shape[1]):
-            arrc[i][j] = arr[j][j]
-            print arr[j][j]
+        for i in range(arr.shape[1]):
+            arrc[i,i] = arr[i,i]
     return arrc
 
 def diag1(arr):
     return np.eye(arr.shape[1]) * arr[:, np.newaxis]
 
-a8 = np.ones((3,3))
+a8 = np.zeros((3,3))
 
 print("Shape 0:", a8.shape[0])
 print("Shape 1:", a8.shape[1])

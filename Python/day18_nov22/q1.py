@@ -73,15 +73,18 @@ print "a7[a7%5 == 0]= -1 \n" , a7
 
 # Q8 Write a function to return diagonal elements of an array(NxN) as an array.
 def diag(arr):
-    arrc = arr.copy()
-        for i in range(arr.shape[1]):
-            arrc[i,i] = arr[i,i]
+    arrc = np.zeros((arr.shape[0],arr.shape[0]))
+    for i in range(arr.shape[1]):
+        arrc[i,i] = arr[i,i]
     return arrc
 
 def diag1(arr):
-    return np.eye(arr.shape[1]) * arr[:, np.newaxis]
+    ar = np.array(arr).reshape(arr.shape[0],arr.shape[0])
+    ar[1,0] = arr[0,1]
+    return ar
 
-a8 = np.zeros((3,3))
+
+a8 = np.array([[1,2,3],[4,5,6],[7,8,9]])
 
 print("Shape 0:", a8.shape[0])
 print("Shape 1:", a8.shape[1])
@@ -89,8 +92,18 @@ print("np.newaxis :", np.newaxis)
 print("Dimension:", a8.ndim)
 print a8
 print diag(a8)
+print "-------------------------------"
+print diag1(a8)
 
 # Q9 Write a function to return the number of occurences of a given element in a numpy array.
 def noofOccuOfMatrix(mat,n):
-    return 0
+    return np.count_nonzero(mat == n)
+    #return np.where(mat == n)
 
+
+a9 = np.array([[1,4,3],[4,5,6],[4,8,9],[10,11,12]])
+print a9
+print "No of Occurences :", noofOccuOfMatrix(a9,4)
+
+# Q10 Modify the above function (Q.No.8) to accept array of any shape and to return the
+#  	  diagonal elements of the highest possible NxN array constructed from the given array.

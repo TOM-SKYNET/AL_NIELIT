@@ -16,10 +16,12 @@ a = np.array([[3.0,3.2],[3.5,3.6]])
 print "Fares \n"
 print "------------------------ \n",a
 c = np.array([118.4,135.2])
-print "Total Fares \n"
+#print "Total Fares \n"
 print "------------------------ \n",c
 ai = np.linalg.inv(a)
 xy = np.dot(ai,c)
+print "------------------------ \n"
 print "Inversse \n", ai
+print "------------------------ \n"
 print "No of Children , Adults\n"
 print "\t", np.rint(xy)

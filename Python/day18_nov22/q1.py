@@ -41,3 +41,58 @@ print("Dimension:",a5.ndim)
 print("Dtype:",a5.dtype)
 print a5
 
+#Q6 Create a 2 dimensional array conating 4 rows and 3 columns each and do different slicing operations and note your findings
+a6 = np.ones((4,3))
+print("----------------------------------------------------------------")
+print("Shape:", a6.shape)
+print("Dimension:",a6.ndim)
+print("Dtype:",a6.dtype)
+#print a6
+#print a6[0,0:]
+for i in range(4):
+    for j in range(3):
+        a6[i][j] =  i * 3 + j
+print a6
+print 'First Row :', a6[0,:]
+print 'Third Row : ', a6[2][:]
+print "Second Column 2-D: ", a6[:,[1]] # 2d
+print "Second Column 1-D: ", a6[:,1] # 1d
+print "First 2 Elements of 2 , 3 rows : \n", a6[1:3,:2]
+print "Last Element of each row \n", a6[:,2:]
+
+#Q7 Create a numpy array(with a suitable shape) to store numbers from 11 to 50.
+#   using boolean indexing, replace all the numbers that are multiples of 5 with -1.
+a7 = np.arange(11,51)
+print len(a7)
+a7 = a7.reshape(10,4)
+print a7
+
+a7[a7%5 == 0]= -1
+print "a7[a7%5 == 0]= -1 \n" , a7
+
+
+# Q8 Write a function to return diagonal elements of an array(NxN) as an array.
+def diag(arr):
+    arrc = arr.copy()
+    for i in range(arr.shape[0]):
+        for j in range(arr.shape[1]):
+            arrc[i][j] = arr[j][j]
+            print arr[j][j]
+    return arrc
+
+def diag1(arr):
+    return np.eye(arr.shape[1]) * arr[:, np.newaxis]
+
+a8 = np.ones((3,3))
+
+print("Shape 0:", a8.shape[0])
+print("Shape 1:", a8.shape[1])
+print("np.newaxis :", np.newaxis)
+print("Dimension:", a8.ndim)
+print a8
+print diag(a8)
+
+# Q9 Write a function to return the number of occurences of a given element in a numpy array.
+def noofOccuOfMatrix(mat,n):
+    return 0
+

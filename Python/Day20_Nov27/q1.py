@@ -12,7 +12,7 @@
 '''
 
 import numpy as np
-
+dtypee = np.dtype([('ename','S20'),('eno','i4'),('edesig','S25'),('esalary','f8'),('ephno','S20')])
 dt1 = 'S20,S10,S30,S15,S25'
-ar = np.loadtxt("emp.csv", delimiter=",", dtype=dt1)
+ar = np.loadtxt("emp.csv", delimiter=",", skiprows=1, dtype=dtypee)
 print(ar)

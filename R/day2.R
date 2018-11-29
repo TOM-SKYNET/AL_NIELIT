@@ -2,6 +2,9 @@
 x<-1:20
 y<-19:1
 v<-c(x,y)
+v
+v<-c(4,6,3)
+v
 
 # Q 2
 x1<-seq(10,40,5)
@@ -49,6 +52,7 @@ avg_bmi
 
 # Q 6 
 marks <- c(sample(50:100,10, replace =TRUE))
+marks
 p1 <- mean(marks)
 p1
 p2 <- median(marks)

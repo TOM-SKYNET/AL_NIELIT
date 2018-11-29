@@ -107,3 +107,4 @@ print "No of Occurences :", noofOccuOfMatrix(a9,4)
 
 # Q10 Modify the above function (Q.No.8) to accept array of any shape and to return the
 #  	  diagonal elements of the highest possible NxN array constructed from the given array.
+# Solu: Find factor and reshape the array

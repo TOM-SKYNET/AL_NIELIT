@@ -24,15 +24,16 @@ student = list(student,names)
 student
 
 #Q 2
-A = matrix(1:6, nrow = 2, ncol = 2, byrow = TRUE)
+A = matrix(1:4, nrow = 2, ncol = 2, byrow = TRUE)
 A
 B = 2 * A
-A
+B
 
 # Q 3
 A = matrix(c(c(1,1,3), c(5,2,6), c(-2,-1,-3)), nrow = 3, ncol =3 , byrow = TRUE)
 A
-A %*% A %*% A
+A3 <- A %*% A %*% A
+A3
 
 #Q4 
 A = matrix(c(10,-10,10), nrow = 15, ncol = 3, byrow=TRUE)
@@ -45,6 +46,7 @@ A = matrix(1:15, nrow = 3, ncol=5)
 A
 dimnames(A) = list(c("Alice","Bill","Sara"), c("P1","P2","P3","P4","P5"))
 A
+# Calculate the mean for all columns
 m = mean(A)
 m
 

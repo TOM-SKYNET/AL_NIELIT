@@ -4,8 +4,10 @@
 a= sample(1:6,3000, replace=TRUE)
 c= sample(30:70,27, replace=TRUE)
 p = sample(c("H","T"), 1000, replace=TRUE)
+p
 
 n= rnorm(100,0,30)
+n
 pn = dnorm(n,0,30)
 plot(n,pn)
 
@@ -27,10 +29,10 @@ plot(n2,p2)
 n3 = rnorm(100,50,30)
 p3 = dnorm(n3,50,30)
 plot(n3,p3)
-
+plot.new()
 n4 = rnorm(100,-50,30)
 p4 = dnorm(n4,-50,30)
-plot(n3,p3)
+plot(n4,p4)
 
 # Q4
 x = rnorm(5000,20,5)

@@ -24,8 +24,11 @@ y = dbinom(x,30,0.8)
 plot(x,y)
 
 # Q4
+# a) 20,25 or 30 times
 sum(dbinom(c(20,25,30),60,0.5))
+# b) less than 20 times
 pbinom(19,60,.5)
+# between 20 and 30 times
 pbinom(30,60,.5)-pbinom(20,60,0.5)
 
 # Q 5, 
@@ -38,15 +41,20 @@ hist(b)
 b = rpois(100,lambda = 5)
 b
 hist(b)
+
 #
 # Q6 
 a = rpois(2608, lambda=10097/2608)
 hist(a)
 
 # Q7
+# a. X is less than 5
 ppois(5,7)
+# b. X is greater than 10
 1-ppois(10,7)
-ppois(16,7) -ppois(3,7)
+# c. X is between 4 and 16
+ppois(16,7) -ppois(4,7)
 
 # Q8
 punif(6,0,25)
+?punif

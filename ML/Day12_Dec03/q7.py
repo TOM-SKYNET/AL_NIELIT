@@ -12,3 +12,4 @@ img1 = np.hstack((img,edges1,edges2))
         
 cv.imshow('Edge Detection',img1)
 cv.waitKey(0)
+cv.destroyAllWindows()

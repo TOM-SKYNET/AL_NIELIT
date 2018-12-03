@@ -12,6 +12,6 @@ def isContiousPartsSum(x):
     return False
 
 
-print(isContiousPartsSum(9999198))
+
 print(isContiousPartsSum(99101200))
 print(isContiousPartsSum(99991982))

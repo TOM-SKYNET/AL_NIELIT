@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Open a sample video available in sample-videos
-vcap = cv2.VideoCapture('car.avi')
+vcap = cv2.VideoCapture('../car1.avi')
 result=vcap.isOpened()
 print(result)
 

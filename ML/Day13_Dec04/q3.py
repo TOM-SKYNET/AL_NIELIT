@@ -1,18 +1,18 @@
+"""
+	3) Do noise removal in the girl.jpg image using the above program (Q2).
+"""
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('./Class/building.png')
-a = img
-for i in range(2):
-    a = cv.pyrDown(a)
-    
-# X Order
-sobelx = cv.Sobel(a, cv.CV_8U,1,0, ksize=1)
-# Y order
-sobely = cv.Sobel(a, cv.CV_8U,0,1, ksize=1)
-sobel_xy = np.hstack((a,sobelx,sobely))
-cv.imshow('Sobel X Factor',sobel_xy)
-font = cv.FONT_HERSHEY_SIMPLEX
-cv.putText(sobel_xy,'Sobel X Factor',(10,500), font, 4,(255,255,255),2)
-cv.waitKey(0)
+img = cv.imread('./Class/girl.jpg',0)
+kernel = np.ones((2,2),np.uint8)
+open1 = cv.morphologyEx(img,cv.MORPH_OPEN,kernel)
+#cv.imshow('Erosin-Dilated Image',open1)
+#cv.waitKey(0)
 
+open2 = cv.morphologyEx(img,cv.MORPH_CLOSE,kernel)
+img_all = np.hstack((img,open1,open2))
+cv.imshow('Erosin-Dilated Image',img_all)
+font = cv.FONT_HERSHEY_SIMPLEX
+cv.putText(img_all,'MORPH_CLOSE OPEN',(10,500), font, 4,(255,255,255),2)
+cv.waitKey(0)

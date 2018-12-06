@@ -1,3 +1,7 @@
+"""
+	1.  Have a list of minimum 5 sentences. Find how close they are to a query string using tfidfVectorizer and cosine_similarity.
+"""
+
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 

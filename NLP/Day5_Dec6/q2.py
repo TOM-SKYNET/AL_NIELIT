@@ -1,10 +1,16 @@
+"""
+	1.  Have a list of minimum 5 sentences. Find how close they are to a query string using tfidfVectorizer and cosine_similarity.
+
+	2. Modify the program to read strings from files.
+"""
+# importing packages
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 print ("\nCalculating document similarity scores...")
 
 # Open and read a bunch of files 
-f = open('New.txt')
+f = open('text.txt')
 doc1 = str(f.read())
 
 # Create a string to use to test the similarity scoring

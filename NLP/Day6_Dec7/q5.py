@@ -15,7 +15,6 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-
 posCount = 0;
 negCount = 0;
 neuCount = 0;

@@ -18,7 +18,6 @@ from keras.optimizers import Adam
 
 
 df = pd.read_csv('sonar.csv')
-#print(df.head)
 print(len(df.columns))
 X = df[df.columns[0:60]].values
 y = df[df.columns[60]]
@@ -57,10 +56,10 @@ optimizer = Adam(lr=0.001)
 # Complie Model
 model.compile(optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 # Fit the model
-model.fit(X,y,verbose =2, epochs =100)
+model.fit(X,y,verbose =2, epochs =1000)
 
 # Print loss and accuracy
 results = model.evaluate(X,y)
-print "Loss ::", results[0]
-print "Accuracy :: %2f"%(results[1])
+print "Loss ::",(results[0])
+print "Accuracy ::",(results[1])
 

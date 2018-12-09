@@ -56,7 +56,7 @@ optimizer = Adam(lr=0.001)
 # Complie Model
 model.compile(optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 # Fit the model
-model.fit(X,y,verbose =2, epochs =1000)
+model.fit(X,y,verbose =2, epochs =500)
 
 # Print loss and accuracy
 results = model.evaluate(X,y)

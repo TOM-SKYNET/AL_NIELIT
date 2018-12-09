@@ -39,12 +39,12 @@ print(y)
 
 # model and different layers (60 input, 3 hidden)
 model = Sequential()
-model.add(Dense(60,input_dim=60, activation='relu')) # inner layer
+model.add(Dense(60,input_dim=60, activation='relu')) # input layer
 model.add(Dense(30, activation='relu')) # hidden 1
 model.add(Dense(12, activation='relu')) # hidden 2
 model.add(Dense(6, activation='relu')) # hidden 3
 model.add(Dense(3, activation='relu'))  # hidden 4
-model.add(Dense(2, activation='softmax')) # outer layer
+model.add(Dense(2, activation='softmax')) # output layer
 
 # Model Summary Info
 print model.summary()

@@ -1,5 +1,10 @@
 from keras.datasets import mnist
 import matplotlib.pyplot as plt
+
+import os
+#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+
 # load (downloaded if needed) the MNIST dataset
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 # plot 4 images as gray scale

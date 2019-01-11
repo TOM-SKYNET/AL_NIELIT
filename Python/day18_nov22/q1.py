@@ -31,7 +31,7 @@ Open python interpreter and do the following.
 	9.Write a function to return the number of occurences of a given element in a numpy array.
 
 	10.Modify the above function (Q.No.8) to accept array of any shape and to return the
- 	    diagonal elements of the highest possible NxN array constructed from the given array. 
+ 	    diagonal elements of the highest possible NxN array constructed from the given array.
 """
 
 

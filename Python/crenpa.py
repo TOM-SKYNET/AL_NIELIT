@@ -1,6 +1,11 @@
 #!/usr/bin/python
+"""
+ find factor of a number
+"""
+
 import sys
 import numpy as np
+
 n=int(sys.argv[1])
 def prm(n):
  rval=True

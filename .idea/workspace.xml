@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da49d9ff-69d3-45c4-bf5c-128bc55f83e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ML/Classess/Day22/FCN1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/day_8_5Nov/Mul_Table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Day14_NOV14/q0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/day10_8_Nov18/CustomizedException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/day10_8_Nov18/GeneratorFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/day12_nov13/read_mysql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Classess/Day10/images/car.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Classess/Day10/images/car1.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Classess/Day10/images/vtest.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Day2_Nov9/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Day2_Nov9/q2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML/Day3_Nov12/Q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Day3_Nov12/Q1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Day3_Nov12/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Day3_Nov12/q2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Day7_Nov19/bank.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP/Day3_Nov14/TestSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/Day3_Nov14/TestSet.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Day13_NOV13/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Day13_NOV13/q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Day14_NOV14/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Day14_NOV14/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Day14_NOV14/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Day14_NOV14/q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Day14_NOV14/q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Day14_NOV14/q3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Day14_NOV14/q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Day14_NOV14/q4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day10_8_Nov18/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day10_8_Nov18/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day10_8_Nov18/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day10_8_Nov18/q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day10_8_Nov18/q5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day10_8_Nov18/q5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day10_8_Nov18/q6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day10_8_Nov18/q6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day10_nov9/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day10_nov9/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day11_nov12/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day11_nov12/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day12_nov13/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day12_nov13/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day15_nov16/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day15_nov16/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day16_nov19/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day16_nov19/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day16_nov19/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day16_nov19/q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day17_Nov21/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day17_Nov21/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day18_nov22/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day18_nov22/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day9/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day9/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day9/q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/day9/q4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/day_8_5Nov/Untitled.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/R/Day5.R" beforeDir="false" afterPath="$PROJECT_DIR$/R/Day5.R" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,23 +40,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="crenpa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/crenpa.py">
+      <file leaf-file-name="q5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q5.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="q1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day15_nov16/q1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-496">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day16_nov19/q1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day17_Nov21/q1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/day18_nov22/q1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-693">
+              <caret line="33" column="94" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python Lab_Day18_22Nov.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day18_nov22/Python Lab_Day18_22Nov.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python Lab_Day16_19Nov.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day16_nov19/Python Lab_Day16_19Nov.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day16_nov19/q2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
               <folding>
-                <element signature="e#18#28#0" expanded="true" />
+                <element signature="e#111#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mul_Table.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/day_8_5Nov/Mul_Table.py">
+      <file leaf-file-name="Python Lab_Day17_21Nov.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day17_Nov21/Python Lab_Day17_21Nov.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+            <state relative-caret-position="165">
+              <caret line="11" column="4" lean-forward="true" selection-end-line="11" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python Lab_Day15_16Nov.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/day15_nov16/Python Lab_Day15_16Nov.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -79,6 +161,29 @@
         <option value="$PROJECT_DIR$/ML/Day3_Nov12/q2.py" />
         <option value="$PROJECT_DIR$/ML/Day9_Nov26/q4.py" />
         <option value="$PROJECT_DIR$/Python/day_8_5Nov/Mul_Table.py" />
+        <option value="$PROJECT_DIR$/Python/day9/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day9/q4.py" />
+        <option value="$PROJECT_DIR$/Python/day10_8_Nov18/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day10_8_Nov18/q2.py" />
+        <option value="$PROJECT_DIR$/Python/day10_8_Nov18/q5.py" />
+        <option value="$PROJECT_DIR$/Python/day10_8_Nov18/q6.py" />
+        <option value="$PROJECT_DIR$/Python/day10_8_Nov18/CustomizedException.py" />
+        <option value="$PROJECT_DIR$/Python/day10_8_Nov18/GeneratorFunction.py" />
+        <option value="$PROJECT_DIR$/Python/day10_nov9/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day11_nov12/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day12_nov13/q1.py" />
+        <option value="$PROJECT_DIR$/Python/Day13_NOV13/q2.py" />
+        <option value="$PROJECT_DIR$/Python/Day14_NOV14/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day12_nov13/read_mysql.py" />
+        <option value="$PROJECT_DIR$/Python/Day14_NOV14/q0.py" />
+        <option value="$PROJECT_DIR$/Python/Day14_NOV14/q2.py" />
+        <option value="$PROJECT_DIR$/Python/Day14_NOV14/q3.py" />
+        <option value="$PROJECT_DIR$/Python/Day14_NOV14/q4.py" />
+        <option value="$PROJECT_DIR$/Python/day15_nov16/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day16_nov19/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day16_nov19/q2.py" />
+        <option value="$PROJECT_DIR$/Python/day17_Nov21/q1.py" />
+        <option value="$PROJECT_DIR$/Python/day18_nov22/q1.py" />
       </list>
     </option>
   </component>
@@ -114,7 +219,67 @@
               <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
               <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="day_8_5Nov" type="462c0819:PsiDirectoryNode" />
+              <item name="day9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_8_Nov18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_nov9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day11_nov12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day12_nov13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Day13_NOV13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Day14_NOV14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day15_nov16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day16_nov19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day17_Nov21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL_NIELIT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL_NIELIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="day18_nov22" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,8 +350,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32959327" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32959327" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.32957748" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.32957748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -262,210 +427,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Sample Projects/drowsiness-detection/detect_drowsiness.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Classess/Day20/kerasmnistcheckpoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../PROJECTS/DL_0/env_des.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Classess/Day22/LSTMs-Basics-Keras.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Classess/Day22/FCN1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day5_Dec6/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <folding>
-            <element signature="e#209#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day6_Dec7/q4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day7_Dec13/q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Classes/NLP7/c4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day3_Nov14/q2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day7_Dec13/q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day6_Dec7/q5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Classes/NLP7/c3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Classes/NLP7/c2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day5_Dec6/q1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLP/Day7_Dec13/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#179#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day2_Nov9/q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day2_Nov9/q4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day3_Nov12/q5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day3_Nov12/q4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day3_Nov12/q6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day3_Nov12/q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day8_Nov22/q1_lasso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day8_Nov22/q1_ridge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day8_Nov22/q1_rfr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day8_Nov22/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day8_Nov22/q1_svr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day8_Nov22/q1_knn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day7_Nov19/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day7_1_Nov21/q1_d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day7_Nov19/q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day6_Nov15/q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML/Day7_1_Nov21/q1_a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ML/Day7_1_Nov21/q1_b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170" />
@@ -617,7 +578,223 @@
     <entry file="file://$PROJECT_DIR$/Python/day_8_5Nov/Mul_Table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day9/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day9/q2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day9/q3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day9/q4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_8_Nov18/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_8_Nov18/q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_8_Nov18/q5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_8_Nov18/q6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_8_Nov18/CustomizedException.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_8_Nov18/GeneratorFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day10_nov9/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day11_nov12/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day12_nov13/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day13_NOV13/q1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day13_NOV13/q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day13_NOV13/emp.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day12_nov13/mysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day12_nov13/read_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Day14_NOV14/q5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day15_nov16/Python Lab_Day15_16Nov.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day15_nov16/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day16_nov19/Python Lab_Day16_19Nov.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day16_nov19/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day16_nov19/q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#111#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day17_Nov21/Python Lab_Day17_21Nov.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day17_Nov21/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day18_nov22/Python Lab_Day18_22Nov.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/day18_nov22/q1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="33" column="94" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,7 @@
+"""
+	Regular Expression findall. Write to a file , all scientist using regular expression
+"""
+
 import re
 
 fd = open("emp.csv")

@@ -1,3 +1,6 @@
+"""
+    Create xml file using dom, from emp.csv file. xml file name is test.xml
+"""
 
 import xml.dom.minidom as dom
 import pandas as pd

@@ -1,5 +1,9 @@
 #!/user/bin/env python
 
+"""
+    xml parsing using dom parsing. Parsing book.xml
+"""
+
 import xml.dom.minidom as dom
 
 dtree = dom.parse("../data/book.xml")

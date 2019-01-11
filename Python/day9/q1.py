@@ -1,3 +1,7 @@
+"""
+    Class operator overloading . __add__ method
+"""
+
 
 class vect:
     def __init__(self,px,py):

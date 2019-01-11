@@ -1,3 +1,7 @@
+"""
+	Regular expression emp.csv write to ini1.csv using findall
+"""
+
 import re
 
 fd = open("emp.csv")

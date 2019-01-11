@@ -1,3 +1,7 @@
+"""
+    Traverse xml files , XML_SAMPLE files
+"""
+
 import xml.dom.minidom
 from os import walk,listdir
 

@@ -1,4 +1,4 @@
-
+""" Exception Handling """
 try:
     a = input('Enter a number:')
     b = input('Enter the divisor:')

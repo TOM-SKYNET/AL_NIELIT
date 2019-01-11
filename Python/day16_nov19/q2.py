@@ -1,3 +1,10 @@
+"""
+
+	2. Create a GUI interface for inserting and retrieving data from a MySQL table of your own choice
+
+
+"""
+
 import psycopg2 as psql
 import sys
 from Tkinter import *
@@ -5,6 +12,8 @@ from Tkinter import *
 
 """
     Function section for all events - START
+    
+    
 """
 
 def clicked(ch):

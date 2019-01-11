@@ -1,3 +1,6 @@
+"""
+    Function for printing class hierarchy. BaseException, Exception
+"""
 
 def pch(cn, noh=0):
     print '-' * noh, cn.__name__

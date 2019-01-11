@@ -1,3 +1,11 @@
+"""
+    Calculator / calc program in GUI using Tkinter
+
+    	1. Develop a calculator application using Tkinter.
+
+
+"""
+
 from Tkinter import *
 mwin=Tk()
 

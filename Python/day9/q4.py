@@ -1,4 +1,6 @@
-
+"""
+    Abstarcat classes - Meta Class
+"""
 import abc
 class vehicle:
     __metaclass__ = abc.ABCMeta    

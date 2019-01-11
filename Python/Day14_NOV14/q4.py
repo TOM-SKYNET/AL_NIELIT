@@ -1,3 +1,7 @@
+""""
+	Write name, phone number to a file empphno.csv removing non numeric characters from phone number
+"""
+
 import re
 
 fd = open("emp.csv")

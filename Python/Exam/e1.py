@@ -141,7 +141,7 @@ plot as xticks lables.
 Syntax for running script: $ script <dirname>
 """
 import os, sys
-import matplotlib.pyplot  as plt
+import matplotlib.pyplot as plt
 start_path = None
 try:
     if sys.argv[1]:
